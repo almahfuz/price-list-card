@@ -26,10 +26,10 @@ const Dashboard = () => {
     { id: 12, name: "Michael", physics: 91, chemistry: 88, math: 92 },
   ];
   return <div>
-    <p className="mt-5 p-4 mx-5"> This is student mark chat, here is chat</p>
+    <p className="mt-5 p-4 mx-5"> This is student marks chat Dashboard, here is Dashboard</p>
 
 <LineChart
-      width={500}
+      width={800}
       height={300}
       data={studentsMarks}
       margin={{
