@@ -3,7 +3,7 @@ import Feature from "../Features/Feature";
 
 const PriceCard = ({ price }) => {
   return (
-    <div className="bg-indigo-500 mt-4 rounded-xl p-4 flex flex-col ">
+    <div className="bg-purple-400 mt-4 rounded-xl p-4 flex flex-col ">
       <h2 className="text-center">
         <span className="text-purple-600 text-white text-4xl font-extrabold">
           {price.price}
@@ -15,7 +15,7 @@ const PriceCard = ({ price }) => {
       {price.features.map((feature, idx) => (
         <Feature key={idx} feature={feature}></Feature>
       ))}
-       <button className="w-full mt-auto bg-green-400 hover:bg-green-600 py-2 rounded-md text-white font-bold">Buy Now</button>
+       <button className="w-full mt-auto  bg-purple-700  hover:bg-purple-500 py-2 rounded-md text-white font-bold">Buy Now</button>
     </div>
   );
 };
